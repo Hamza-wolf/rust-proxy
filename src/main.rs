@@ -17,7 +17,8 @@ mod templates;
 // Allowed origins - more permissive for production
 static ALLOWED_ORIGINS: Lazy<[&str; 2]> = Lazy::new(|| [
     "https://anoboye.com",
-    "https://player.anoboye.com", //my domain added
+    "https://player.anoboye.com",
+    "https://vid.anoboye.com", //my domain added
     
 ]);
 
