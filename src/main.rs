@@ -15,7 +15,7 @@ use tokio::task;
 mod templates;
 
 // Allowed origins - more permissive for production
-static ALLOWED_ORIGINS: Lazy<[&str; 2]> = Lazy::new(|| [
+static ALLOWED_ORIGINS: Lazy<[&str; 3]> = Lazy::new(|| [
     "https://anoboye.com",
     "https://player.anoboye.com",
     "https://vid.anoboye.com", //my domain added
